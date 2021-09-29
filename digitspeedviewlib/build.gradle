@@ -65,21 +65,12 @@ afterEvaluate {
                 from components.release
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.cogosense.DigitSpeedView'
+                groupId = 'com.github.Cogosense'
                 artifactId = 'DigitSpeedView'
                 version = '1.0.4'
                 pom {
                     description = 'Awesome digital speedometer for android'
                 }
-            }
-            // Creates a Maven publication called “debug”.
-            debug(MavenPublication) {
-                // Applies the component for the debug build variant.
-                from components.debug
-
-                groupId = 'com.cogosense.DigitSpeedView'
-                artifactId = 'DigitSpeedView-debug'
-                version = '1.0.4'
             }
         }
     }
