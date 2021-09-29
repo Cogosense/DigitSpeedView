@@ -3,9 +3,9 @@
 Awesome digital speedometer for android, [see project on GitHub](https://github.com/Cogosense/DigitSpeedView).
 Original project - [see ioriginal project on GitHub](https://github.com/capur16/DigitSpeedView).
 
-<img src="/Cogosense/DigitSpeedView/blob/master/images/DigitSpeedView1.png" width="33%" />
-<img src="/Cogosense/DigitSpeedView/blob/master/images/DigitSpeedView2.png" width="33%" />
-<img src="/Cogosense/DigitSpeedView/blob/master/images/DigitSpeedView3.png" width="33%" />
+<img src="images/DigitSpeedView1.png" width="33%" />
+<img src="images/DigitSpeedView2.png" width="33%" />
+<img src="images/DigitSpeedView3.png" width="33%" />
 
 Compatibility
 -------------
