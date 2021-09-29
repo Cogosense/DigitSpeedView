@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DigitSpeedView.iml" filepath="$PROJECT_DIR$/DigitSpeedView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/digitspeedviewlib/digitspeedviewlib.iml" filepath="$PROJECT_DIR$/digitspeedviewlib/digitspeedviewlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DigitSpeedView.iml" filepath="$PROJECT_DIR$/.idea/modules/DigitSpeedView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DigitSpeedView.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DigitSpeedView.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/digitspeedviewlib/DigitSpeedView.digitspeedviewlib.iml" filepath="$PROJECT_DIR$/.idea/modules/digitspeedviewlib/DigitSpeedView.digitspeedviewlib.iml" />
     </modules>
   </component>
 </project>

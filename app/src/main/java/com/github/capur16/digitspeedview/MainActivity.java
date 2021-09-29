@@ -1,11 +1,12 @@
 package com.github.capur16.digitspeedview;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.AppCompatSeekBar;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatSeekBar;
 
 import com.github.capur16.digitspeedviewlib.DigitSpeedView;
 import com.github.capur16.digitspeedviewlib.OnSpeedChangeListener;

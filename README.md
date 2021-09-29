@@ -1,14 +1,11 @@
 # DigitSpeedView
 
-[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)
-[ ![Download](https://api.bintray.com/packages/capur16/maven/DigitSpeedView/images/download.svg?version=1.0.3) ](https://bintray.com/capur16/maven/DigitSpeedView/1.0.3/link)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-DigitSpeedView-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5103)
+Awesome digital speedometer for android, [see project on GitHub](https://github.com/Cogosense/DigitSpeedView).
+Original project - [see ioriginal project on GitHub](https://github.com/capur16/DigitSpeedView).
 
-Awesome digital speedometer for android, [see project on GitHub](https://github.com/capur16/DigitSpeedView).
-
-<img src="https://github.com/capur16/DigitSpeedView/blob/master/images/DigitSpeedView1.png" width="33%" />
-<img src="https://github.com/capur16/DigitSpeedView/blob/master/images/DigitSpeedView2.png" width="33%" />
-<img src="https://github.com/capur16/DigitSpeedView/blob/master/images/DigitSpeedView3.png" width="33%" />
+<img src="/Cogosense/DigitSpeedView/blob/master/images/DigitSpeedView1.png" width="33%" />
+<img src="/Cogosense/DigitSpeedView/blob/master/images/DigitSpeedView2.png" width="33%" />
+<img src="/Cogosense/DigitSpeedView/blob/master/images/DigitSpeedView3.png" width="33%" />
 
 Compatibility
 -------------
@@ -22,21 +19,22 @@ Download
 
 ```gradle
 
-dependencies {
-	    compile 'com.github.capur16:digitspeedviewlib:1.0.3'
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
 }
 
 ```
 
-for **maven**
+**add this line to** `app/build.gradle`
 
-```maven
-<dependency>
-  <groupId>com.github.capur16</groupId>
-  <artifactId>digitspeedviewlib</artifactId>
-  <version>1.0.3</version>
-  <type>pom</type>
-</dependency>
+```gradle
+
+dependencies {
+    compile 'com.github.Cogosense:digitspeedviewlib:1.0.4'
+}
+
 ```
 
 Simple Usage
