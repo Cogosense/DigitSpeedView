@@ -1,4 +1,5 @@
 # DigitSpeedView
+[![](https://jitpack.io/v/Cogosense/DigitSpeedView.svg)](https://jitpack.io/#Cogosense/DigitSpeedView)
 
 Awesome digital speedometer for android, [see project on GitHub](https://github.com/Cogosense/DigitSpeedView).
 Original project - [see ioriginal project on GitHub](https://github.com/capur16/DigitSpeedView).
