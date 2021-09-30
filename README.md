@@ -33,7 +33,7 @@ allprojects {
 ```gradle
 
 dependencies {
-    compile 'com.github.Cogosense:digitspeedviewlib:1.0.4'
+    compile 'com.github.Cogosense:digitspeedviewlib:1.0.5'
 }
 
 ```
