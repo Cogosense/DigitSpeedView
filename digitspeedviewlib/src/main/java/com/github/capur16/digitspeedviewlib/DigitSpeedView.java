@@ -124,6 +124,53 @@ public class DigitSpeedView extends RelativeLayout {
     }
 
     /**
+     * Set speed text color
+     */
+    public void setSpeedTextColor(int speedTextColor) {
+        this.speedTextColor = speedTextColor;
+        mSpeedTextView.setTextColor(speedTextColor);
+        mSpeedTextView.setShadowLayer(20, 0, 0, speedTextColor);
+    }
+
+    /**
+     * Get speed text color
+     */
+    public int getSpeedTextColor() {
+        return speedTextColor;
+    }
+
+    /**
+     * Set unit text color
+     */
+    public void setUnitTextColor(int unitTextColor) {
+        this.unitTextColor = unitTextColor;
+        mSpeedUnitTextView.setTextColor(unitTextColor);
+        mSpeedUnitTextView.setShadowLayer(20, 0, 0, unitTextColor);
+    }
+
+    /**
+     * Get unit text color
+     */
+    public int getUnitTextColor() {
+        return unitTextColor;
+    }
+
+    /**
+     * Set unit text
+     */
+    public void setUnitText(String unit) {
+        this.unit = unit;
+        mSpeedUnitTextView.setText(unit);
+    }
+
+    /**
+     * Get unit text
+     */
+    public String getUnitText() {
+        return unit;
+    }
+
+    /**
      * Show unit text
      */
     public void showUnit() {
